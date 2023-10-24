@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 
-const settings = () => {
+const Settings = () => {
   const { query } = useRouter();
   return (
     <div>
@@ -9,4 +9,4 @@ const settings = () => {
   );
 };
 
-export default settings;
+export default Settings;

@@ -3,7 +3,7 @@ import { useEffect } from "react";
 
 const useUser = () => ({ user: { name: "Atul Chauhan" }, loading: false });
 
-const index = () => {
+const UserPage = () => {
   const router = useRouter();
   const user = useUser();
 
@@ -34,4 +34,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default UserPage;

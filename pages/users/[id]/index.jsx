@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
-const userDetails = () => {
+const UserDetails = () => {
   const router = useRouter();
   const [user, setUser] = useState({});
 
@@ -26,4 +26,4 @@ const userDetails = () => {
   );
 };
 
-export default userDetails;
+export default UserDetails;
